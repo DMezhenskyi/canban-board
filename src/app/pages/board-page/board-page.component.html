@@ -3,12 +3,17 @@
   <mat-divider></mat-divider>
 </section>
 <section
+  cdkDropList
   class="board-page_content"
   fxLayoutGap="10px"
   fxLayoutAlign="start stretch"
   fxFlex
 >
-  <mat-card class="canban-list" *ngFor="let list of canbanLists$ | async">
+  <mat-card
+    cdkDrag
+    class="canban-list"
+    *ngFor="let list of canbanLists$ | async"
+  >
     <mat-card-title>{{ list.name }}</mat-card-title>
     <mat-divider></mat-divider>
     <mat-card-content>

@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-trello-clone"
+    }
+  },
+  "defaultProject": "ng-trello-clone",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }

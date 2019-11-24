@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.board-page {
+  &_content {
+    padding: 2rem 0;
+  }
+}
+
+.canban-list {
+  min-width: 17rem;
+}
